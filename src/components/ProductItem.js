@@ -1,5 +1,3 @@
-import "../App.css";
-
 const ProductItem = (props) => {
   return (
     <div>
