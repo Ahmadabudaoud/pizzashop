@@ -1,14 +1,11 @@
-import "./App.css";
+import Home from "./components/Home";
+import Productlist from "./components/ProductList";
 
 function App() {
   return (
     <div>
-      <h1 className="text">The Pizza shop</h1>
-      <h4 className="text">It is so good</h4>
-      <img
-        className="image"
-        src="https://cdnimg.webstaurantstore.com/uploads/buying_guide/2014/6/pizzeria-2.jpg"
-      />
+      <Home />
+      <Productlist />
     </div>
   );
 }
